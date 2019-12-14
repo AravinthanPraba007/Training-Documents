@@ -1,0 +1,26 @@
+mysql containerization:
+===========================
+
+1.to create mysqlimage:
+
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password-1 -d mysql:latest
+
+2.to display mysql 
+docker images ls
+
+3.to start bash
+docker exec -it my-mysql bash
+
+4.to start msql commandprompt
+  >mysql -uroot -p
+   give passwordhere
+
+docker start my-mysql
+
+docker restart my-mysql
+
+docker stop my-mysql
+
+docker rm my-mysql?
+
+

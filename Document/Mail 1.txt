@@ -1,0 +1,22 @@
+Objectives
+Explain the need and benefit of Microservices
+Challenges of enterprise applications, drawbacks of monolithic services, benefits of micro services, challenges of microservices
+Reference - https://medium.com/@madhupathy/simplified-microservices-building-with-spring-cloud-netflix-oss-eureka-zuul-hystrix-ribbon-2faa9046d054
+Create microservices using Spring Web
+Spring RESTful Web Services, server.port definition
+Create Eureka Discovery Services using Spring Cloud
+Eureka Server, @EnableEurekaServer, Eureka Discovery Client, @EnableDiscoveryClient
+Reference - https://spring.io/guides/gs/service-registration-and-discovery/
+Create Zuul Gateway to route multiple microservices
+Purpose of Zuul Gateway, routing microservices, Zuul Gateway Server, @EnableZuulProxy, pre filter
+Reference - https://spring.io/guides/gs/routing-and-filtering/
+IMPORTANT NOTE: The above objectives needs to be covered in a half day session. After which the following two learning sessions needs to be implemented by self-learning and without trainer intervention.
+Session 1 (4 Hours) 
+Segregate the spring-learn application into two microservices
+One microservice for user authentication
+Second microservice for employee service
+Session 2 (4 Hours) 
+Add the two microservices to eureka discovery
+Add the two microservices to zuul gateway
+Integrate angular application with the end points of zuul gateway?
+

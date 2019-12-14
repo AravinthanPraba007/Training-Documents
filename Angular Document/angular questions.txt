@@ -1,0 +1,72 @@
+1=>What is string interpolation in Angular?
+
+Ans: String interpolation refers to a special type of syntax that
+  makes use of template expressions in order to display the component data.
+ These template expressions are enclosed within double curly
+ braces i.e. {{ }}.
+
+2=>How to generate a service  in Angular using CLI?
+
+Ans:ng generate service Mservice
+
+3=>What is Two-way Binding – 
+Ans:Changes made in the application state gets
+  automatically reflected in the view and vice-versa. 
+  The ngModel directive is used for achieving this type 
+  of data binding
+
+4=>What is @NgModule?
+Ans:An NgModule class describes how the application parts fit together
+   Every application has at least one NgModule, the root module that we
+   bootstrap to launch the application.
+
+5=>What are all the metadata properties of NgModule? And what are they 
+   used for?
+Ans:@NgModule accepts a metadata object that tells Angular how to compile and 
+launch the application. The properties are:
+
+imports – Modules that the application needs or depends on to run like,
+          the BrowserModule that every application needs to run 
+          in a browser.
+declarations – the application's components, which belongs to the 
+             NgModuleclass. We must declare every component in 
+             an NgModule class. If we use a component without declaring
+             it, we'll see a clear error message in the browser console.
+bootstrap – the root component that Angular creates and inserts into the
+            index.html host web page. The application will be launched 
+            by creating the components listed in this array.
+6=>What is the command to create new angular child component
+Ans: ng generate component childcomponent  
+     or
+     ng g  c childcomponent  
+7=>What is the role of @Component
+Ans : @component is a decorator which includes selector, template 
+     and style urls.
+      @componnet is given as meta data or decorator to class.
+
+   @Component({
+      selector: 'app-root',
+      templateUrl: './app.component.html',
+      styleUrls: ['./app.component.css']
+   })
+
+8=>What are all the uses of a service?
+Ans : Services encapsulates business logic and separates them from UI
+      concerns or the controller concerns, which governs them both.
+
+9=> What are the angular pipes or filters?
+Ans:
+currency – Formats a number to the currency format
+date – Formats a data to some specific format
+filter – Selects a subset of items from an array
+json – Formats an object to a JSON string
+limitTo – Limits an array or string into a specified number of characters or elements
+lowercase – Formats a string to lowercase
+number – Formats a number to a string
+orderBy – Orders an array by an expression
+
+10:How to generate a module in Angular?
+   In order to generate a module in Angular, cd to the current project
+   directory and below command.
+
+   ng g module module_name
